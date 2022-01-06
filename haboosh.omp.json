@@ -64,6 +64,17 @@
           }
         },
         {
+          "type": "python",
+          "style": "powerline",
+          "foreground": "#FFD44C",
+          "background": "#366e9c",
+          "powerline_symbol": "\uE0B0",
+          "properties": {
+            "prefix": " \uE235 ",
+            "display_mode": "context"
+          }
+        },
+        {
           "type": "exit",
           "style": "diamond",
           "foreground": "#ffffff",
