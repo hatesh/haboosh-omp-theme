@@ -71,7 +71,20 @@
           "powerline_symbol": "\uE0B0",
           "properties": {
             "prefix": " \uE235 ",
-            "display_mode": "context"
+            "display_mode": "context",
+            "display_default": true,
+            "fetch_virtual_env": true
+          }
+        },
+        {
+          "type": "node",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#FFD44C",
+          "background": "#366e9c",
+          "properties": {
+            "prefix": " \uE718 ",
+            "fetch_package_manager": true
           }
         },
         {
