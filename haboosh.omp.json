@@ -130,7 +130,7 @@
           "foreground": "#222222",
           "background": "#b2bec3",
           "properties": {
-            "template": "{{ .UserName }}@{{ .ComputerName }}"
+            "template": "{{ if .SSHSession }}\uF817 {{ end }}{{ .UserName }}@{{ .HostName }}"
           }
         },
         {
